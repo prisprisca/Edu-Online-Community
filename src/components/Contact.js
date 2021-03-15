@@ -4,13 +4,16 @@ import { TextField, Button } from "@material-ui/core";
 
 function Contact() {
   return (
-    <div
+    <div className='contact'
       style={{
         background: "white",
         margin: "1rem",
         padding: "1rem",
         boxShadow: "10px 5px 10px lightgray",
-        borderRadius: '3px'
+        borderRadius: '3px',
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'space-around'
       }}
     >
       <div className="contact-text">
