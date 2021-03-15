@@ -10,6 +10,7 @@ function Contact() {
         margin: "1rem",
         padding: "1rem",
         boxShadow: "10px 5px 10px lightgray",
+        borderRadius: '3px'
       }}
     >
       <div className="contact-text">
