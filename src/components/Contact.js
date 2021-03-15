@@ -4,16 +4,17 @@ import { TextField, Button } from "@material-ui/core";
 
 function Contact() {
   return (
-    <div className='contact'
+    <div
+      className="contact"
       style={{
         background: "white",
         margin: "1rem",
         padding: "1rem",
         boxShadow: "10px 5px 10px lightgray",
-        borderRadius: '3px',
-        display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'space-around'
+        borderRadius: "3px",
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-around",
       }}
     >
       <div className="contact-text">
@@ -34,7 +35,17 @@ function Contact() {
             rows={5}
             autocomplete="none"
           />
-          <Button type="submit">Submit</Button>
+          <Button
+            type="submit"
+            style={{
+              background: "#4a47a3",
+              color: "white",
+              width: "25%",
+              marginTop: "0.5rem",
+            }}
+          >
+            Submit
+          </Button>
         </form>
       </div>
     </div>
