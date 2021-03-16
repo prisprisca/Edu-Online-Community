@@ -12,13 +12,13 @@ function Header() {
       <div className="head">
         <ul className="header-links">
           <li className="header-list">
-            <Link to="login" className="header-link">
+            <Link to="signinout" className="header-link">
               <span>Login</span>
             </Link>
           </li>
 
           <li className="header-list">
-            <Link to="signup" className="header-link">
+            <Link to="signinout" className="header-link">
               <span>SignUp</span>
             </Link>
           </li>
